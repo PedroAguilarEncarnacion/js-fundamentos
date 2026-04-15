@@ -1,3 +1,4 @@
+
 const greeting = function (name) {
   return `Hi, ${name}`   
 }
@@ -7,6 +8,9 @@ const greeting = function (name) {
 const newGreeting =  (name) => {
   return `Hi, ${name}`   
 }
+
+const greetingTwo =  (name) => `Hi, ${name}`   
+
 
 // Arrow function - implicit return 
 

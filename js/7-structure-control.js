@@ -1,14 +1,14 @@
 let nombre = "Nico";
 
-if (nombre === "Diego") {
+/*if (nombre === "Diego") {
   console.log("Hola Diego");
 } else if (nombre === "Nico") {
   console.log("Hola Nico");
 } else {
   console.log("Nombre no encontrado");
-}
+}*/
 
-/*switch(expresion) {
+switch(expresion) {
   case valor1:
     código a ejecutar
     break;
@@ -23,7 +23,7 @@ if (nombre === "Diego") {
     break;
   default:
     código o mensaje
-}*/
+}
 
 let expr = "Uvas";
 

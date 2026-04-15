@@ -5,7 +5,7 @@
 
 for (let i = 0; i < list.length; i++) {
   console.log(list[i]);
-}*/
+}
 
 /*
 
@@ -17,31 +17,27 @@ for (varible of objeto) {
 
 */
 
-/*let canasta = ["manzana", "pera", "naranja", "uva"];
-
-for (fruta of canasta) {
-  console.log(fruta);
-}*/
-
 /*
 
+/*
 for in ---> objetos 
-
 propiedades = valor
-
-
 for (varible in objeto) {
   código
 }
-
 */
-
 const listaDeCompras = {
   manzana: 5,
   pera: 3,
   naranja: 2,
   uva: 1,
 };
+
+let canasta = ["manzana", "pera", "naranja", "uva"];
+
+for (fruta of canasta) {
+  console.log(fruta);
+}
 
 for (fruta in listaDeCompras) {
   console.log(fruta);
@@ -57,7 +53,7 @@ while(condicion) {
 }
 */
 
-let contador = 0;
+/*let contador = 0;
 
 while (contador < 10) {
   console.log(contador);
@@ -72,9 +68,9 @@ do {
 
 */
 
-let con = 0;
+/*let con = 0;
 
 do {
   console.log(con);
   con++;
-} while (con < 10);
+} while (con < 10);*/

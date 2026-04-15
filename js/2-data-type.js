@@ -34,3 +34,5 @@ let frutas = ['manzana', 'banano', 'uvas']
 
 // function
 function saludar () {}
+
+console.log(frutas)
