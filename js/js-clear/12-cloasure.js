@@ -17,8 +17,8 @@ function outerFunction () {
     return innterFunction
 }
 
-const closureExample = outerFunction()
-closureExample()
+//const closureExample = outerFunction()
+//closureExample()
 
 function createCounter () {
     let count = 0
@@ -38,16 +38,12 @@ counterB()
 
 function outer () {
     let message = "Hello, "
-
     function inner (name) {
         console.log(message + name)
     }
-
     return inner
 }
-
 const closureA = outer()
 const closureB = outer()
-
 closureA("Alice")
 closureA("Bob")

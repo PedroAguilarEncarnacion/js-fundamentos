@@ -3,27 +3,27 @@
 // 1. new Array() or Array()
 
 const fruits = Array('apple', 'banana', 'orange')
-console.log(fruits)
+//console.log(fruits)
 
-const justOneNumber = Array(12)
+/*const justOneNumber = Array(12)
 console.log(justOneNumber)
 
 const number = Array(1, 2, 3, 4, 5)
-console.log(number)
+console.log(number)*/
 
 // 2. Array literal syntax
 
-const oneNumber = [4]
-console.log(oneNumber)
+//const oneNumber = [4]
+//console.log(oneNumber)
 
-const emptyArray = []
+/*const emptyArray = []
 console.log(emptyArray)
 
 const sports = ['soccer', 'tennis', 'rugby']
-console.log(sports)
+console.log(sports[1])*/
 
 //3. Array Mixtos
-const recipeIngredients = [
+/*const recipeIngredients = [
   'Flour',
   true,
   2,
@@ -42,12 +42,12 @@ console.log(firstFruit)
 // length property
 
 const numberOfFruits = fruits.length
-console.log(numberOfFruits)
+console.log(numberOfFruits)*/
 
 // Mutability
 
-fruits.push('watermelon')
-console.log(fruits)
+//fruits.push('watermelon')
+//console.log(fruits)
 
 // Immutability
 
@@ -57,7 +57,7 @@ console.log(newFruits)
 
 // Checking arrays with Array.isArray()
 
-const isArray = Array.isArray(fruits)
+/*const isArray = Array.isArray(fruits)
 console.log(isArray)
 
 // Practical exercise: sum all elements of an array.
@@ -69,4 +69,4 @@ for (let i = 0; i < numbersArray.length; i++) {
   sum += numbersArray[i]
 }
 
-console.log(sum)
+console.log(sum)*/

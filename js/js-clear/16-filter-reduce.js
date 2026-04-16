@@ -3,20 +3,20 @@
 
 // filter()
 //Use filter when you want to keep some elements from an array.
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+/*const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const evenNumbers = numbers.filter(number => number % 2 === 0)
 
 console.log(numbers)
-console.log(evenNumbers)
+console.log(evenNumbers)*/
 
 // reduce() A· case 1
 //Use reduce when you want to turn the whole array into one final result.
 
-const numbersReduce = [1, 2, 3, 4, 5]
-const sum = numbersReduce.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+/*const numbersReduce = [1, 2, 3, 4, 5]
+const sum = numbersReduce.reduce((accumulator, currentValue) => accumulator + currentValue, 2)
 
 console.log(numbersReduce)
-console.log(sum)
+console.log(sum)*/
 
 // reduce() A· case 2
 
